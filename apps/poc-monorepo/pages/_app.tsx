@@ -1,7 +1,7 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
+import { AppProps } from 'next/app'
+import Head from 'next/head'
 import CustomButton from '@poc-monorepo/ui'
-import './styles.css';
+import './styles.css'
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -14,7 +14,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <CustomButton />
       </main>
     </>
-  );
+  )
 }
 
-export default CustomApp;
+export default CustomApp
